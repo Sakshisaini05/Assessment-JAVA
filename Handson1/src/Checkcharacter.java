@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Checkcharacter {
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
+		Scanner sc=new Scanner(System.in);  //Take user input
 		System.out.println("Enter the Character:");
 		char c=sc.next().charAt(0);
 		if( (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
@@ -13,7 +13,7 @@ public class Checkcharacter {
 			System.out.println(c + " is a digit");
 		}
 		else {
-			System.out.println(c + " is a special Character");
+			System.out.println(c + " is a special Character"); 
 		}
 	}
 }
